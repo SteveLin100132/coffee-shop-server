@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "mariaDB": {
+    "host": "127.0.0.1",
+    "port": 3308,
+    "url": "",
+    "database": "shop",
+    "password": "root",
+    "name": "mariaDB",
+    "user": "root",
+    "connector": "mysql"
+  }
+}
