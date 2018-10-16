@@ -35,7 +35,15 @@
     "dataSource": "db",
     "public": false
   },
+  "coffeeshop": {
+    "dataSource": "mariaDB",
+    "public": true
+  },
   "review": {
+    "dataSource": "mariaDB",
+    "public": true
+  },
+  "reviewer": {
     "dataSource": "mariaDB",
     "public": true
   }

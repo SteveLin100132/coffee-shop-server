@@ -6,12 +6,6 @@
     "validateUpsert": true
   },
   "properties": {
-    "email": {
-      "type": "string"
-    },
-    "timestamp": {
-      "type": "string"
-    },
     "rate": {
       "type": "number",
       "required": true,
@@ -20,13 +14,23 @@
     "content": {
       "type": "string"
     },
-    "shop": {
-      "type": "string",
-      "required": true
+    "timestamp": {
+      "type": "date"
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "coffeeshop": {
+      "type": "belongsTo",
+      "model": "coffeeshop",
+      "foreignKey": ""
+    },
+    "reviewer": {
+      "type": "belongsTo",
+      "model": "reviewer",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }
