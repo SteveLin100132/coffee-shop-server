@@ -7,8 +7,10 @@ const MySQL = require('loopback-connector-mysql');
 let dataSource = new DataSource({
   connector: MySQL,
   host: 'localhost',
-  port: 3306,
-  database: 'shop'
+  port: 3308,
+  database: 'shop',
+  user: 'root',
+  password: 'root'
 });
 
 module.exports = function(Review) {

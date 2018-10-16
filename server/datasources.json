@@ -5,12 +5,12 @@
   },
   "mariaDB": {
     "host": "127.0.0.1",
-    "port": 3306,
+    "port": 3308,
     "url": "",
     "database": "shop",
-    "password": "root",
+    "password": "12345",
     "name": "mariaDB",
-    "user": "root",
+    "user": "steve",
     "connector": "mysql"
   }
 }
